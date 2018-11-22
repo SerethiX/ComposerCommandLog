@@ -63,3 +63,6 @@ Before creating new features have a look at the already planned features and WIP
 
 ## WIP features
 _Project just started, so what are you thinking? ^^_
+
+# License
+[GNU General Public License v3.0](https://github.com/SerethiX/ComposerCommandLog/blob/master/LICENSE)
