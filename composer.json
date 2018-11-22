@@ -1,0 +1,32 @@
+{
+  "name": "serethix/composer-command-log",
+  "description": "Logs all executed commands in order of execution so you can re run them in case there is a merge conflict during a merge or rebase",
+  "license": "GNU GPLv3",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Nils Baltuttis",
+      "email": "nils@baltuttis.com"
+    }
+  ],
+  "extra": {
+    "class": "SerethiX\\ComposerCommandLogPlugin\\CommandLoggingPlugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "SerethiX\\ComposerCommandLogPlugin\\": "./src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "composer-plugin-api": "^1.1",
+    "php": ">=7.1",
+    "ext-json": "*",
+    "symfony/process": "^4.1",
+    "symfony/lock": "^4.1",
+    "symfony/console": "^4.1"
+  },
+  "require-dev": {
+    "composer/composer": "^1.7"
+  }
+}
