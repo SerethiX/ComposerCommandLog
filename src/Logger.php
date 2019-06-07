@@ -33,11 +33,6 @@ class Logger
         $this->file = new \SplFileObject($fileName, 'a');
     }
 
-    public function __destruct()
-    {
-        $this->file->fflush();
-    }
-
     /**
      * @param InputInterface $input
      * @param string         $tag
