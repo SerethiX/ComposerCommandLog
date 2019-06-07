@@ -1,7 +1,7 @@
 {
   "name": "serethix/composer-command-log",
   "description": "Logs all executed commands in order of execution so you can re run them in case there is a merge conflict during a merge or rebase",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "type": "composer-plugin",
   "authors": [
     {

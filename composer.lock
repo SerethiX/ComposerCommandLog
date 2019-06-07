@@ -918,6 +918,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "composer-plugin-api": "^1.1",
         "php": ">=7.1",
         "ext-json": "*"
     },
