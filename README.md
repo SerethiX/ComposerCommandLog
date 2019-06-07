@@ -65,7 +65,7 @@ Before creating new features have a look at the already planned features and WIP
 _Project just started, so what are you thinking? ^^_
 
 # License
-[GNU General Public License v3.0](https://github.com/SerethiX/ComposerCommandLog/blob/master/LICENSE)
+[MIT License](https://github.com/SerethiX/ComposerCommandLog/blob/master/LICENSE)
 
 # Thanks go to
 Rafael Dohms for his [blog post](http://blog.doh.ms/2016/11/28/solving-conflicts-in-composer-lock/) that inspired the creation of this composer plugin.
